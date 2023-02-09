@@ -1,0 +1,109 @@
+body{
+    overflow-x: hidden;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    background-color: #defbc2;
+}
+.SCName{
+    color: #FCEDDA;
+    font-weight: bold;
+    font-size: 32px;
+    letter-spacing: 2px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase; 
+}
+.Location{
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    color: #fff;
+}
+.navbar{
+    background-color: #00008B;
+}
+.offcanvas-color{
+    background-color: #00008B;
+}
+.topinfo{
+    background-color: #EE4E34;
+    color: #FCEDDA;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    font-size: 0.9rem;
+    margin-bottom: 48px;
+}
+.topinfomenu{
+    background-color: #00008B;
+    color: #FCEDDA;
+    font-size: 0.9rem;
+    text-align: center;
+}
+.info{
+    background-color: #EE4E34;
+    color: #FCEDDA;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    font-size: 0.9rem;
+    padding: 7px;
+}
+.hovering{
+    transition: 0.5s;
+}
+.hovering:hover{
+    border-bottom: 2px solid #FCEDDA;
+    border-top: 2px solid #FCEDDA;
+}
+.enroll .nav-link{
+    background-color: #FCEDDA;
+    font-style: italic;
+    font-weight: bold;
+    color: #00008B;
+    transition: 0.2s;
+}
+.enroll .nav-link:hover{
+    background-color: #EE4E34;
+    color: #FCEDDA;
+}
+.nav-pills .nav-item .nav-link {
+    background-color: #00008B;
+    border-radius: 0;
+    color: #FFF;
+}
+.bd{
+    border-top: 2px solid #FCEDDA;
+}
+.nav-pills .nav-item .nav-link.active {
+    border-bottom: 2px solid #FCEDDA;
+    border-top: 2px solid #FCEDDA;
+    background-color: #FCEDDA;
+    color: #000;
+}
+.nav-pills .nav-item .nav-link:hover{
+    border-bottom: 2px solid #FCEDDA;
+    border-top: 2px solid #FCEDDA;
+    background-color: #FCEDDA;
+    color: #000;
+}
+.nav{
+  background-color: #00008B;
+  height: 175vh;
+  width: 100%;
+}
+ .list-group{
+    width: 400px;
+}
+.center{
+    display: flex;
+    margin-top: 20px;
+    min-height: 80vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #defbc2;
+}
+.table{
+    width: 75%;
+}
+.back{
+    background-color: #00008B;
+}

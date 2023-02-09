@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/72416a9d5a.js" crossorigin="anonymous"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous"><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Homework_0.3.0.css">
+    <link rel="icon" type="image/x-icon" href="Images/study.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/72416a9d5a.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;1,400&family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Explora&family=Josefin+Sans:ital,wght@0,100;0,200;1,400&family=Oswald&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a href="Homework_03.0.html" class="navbar-brand">
+                <div class="row">
+                        <p class="SCName">
+                            StudyRightNow
+                        </p>
+                        <p class="Location">
+                            Location
+                        </p>
+                </div>
+            </a>
+            <div class="justify-content-end px-5">
+                <div class="text-end mb-3">
+                    <div class="topinfo px-3 py-1 text-center d-inline d-sm-none d-lg-inline">
+                        <span class="me-3 d-md-inline d-inline-block">
+                            info@email.com
+                        </span>
+                        <span class="me-3 ms-2 ms-lg-0 d-md-inline d-inline-block mt-lg-0 mt-2">
+                            +959 395749632
+                        </span>
+                    </div>
+                </div>
+                <div class="offcanvas offcanvas-end offcanvas-color" id="offcanvas">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title">
+                            <div>
+                                <div class="py-1 text-center d-inline">
+                                    <span class="info me-3 d-md-block d-inline-block">
+                                        info@studyrightnow-mdy.com
+                                    </span>
+                                    <span class="info me-3 ms-2 ms-lg-0 d-md-inline d-inline-block mt-lg-0 mt-2">
+                                        +959 395749632
+                                    </span>
+                                </div>
+                            </div>
+                        </h5>
+                        <button type="button" class="btn btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav">
+                            <li class="nav-item hovering"><a href="#" class="nav-link text-white">Home</a></li>
+                            <li class="nav-item hovering"><a href="#" class="nav-link text-white">About Us</a></li>
+                            <li class="nav-item hovering"><a href="#" class="nav-link text-white">Reviews</a></li>
+                            <li class="nav-item hovering"><a href="#" class="nav-link text-white">Contact</a></li>
+                            <li class="nav-item hovering"><a href="#" class="nav-link text-white">Practices</a></li>
+                            <li class="nav-item hovering enroll"><a href="#" class="nav-link">Enroll Now</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <button class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#offcanvas"><i class="fa-solid fa-bars fa-2x"></i></button>
+        </div>
+    </nav>
+    <div class="row">
+        <div class="col-3">
+            <ul class="nav nav-pills flex-column">
+                <li class="nav-item bd">
+                    <a href="#tab-1" class="nav-link py-2 active" data-bs-toggle="tab"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house mb-1" viewBox="0 0 16 16">
+                        <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5ZM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5 5 5Z"/>
+                      </svg> Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#tab-2" class="nav-link py-2" data-bs-toggle="tab"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar3 mb-1" viewBox="0 0 16 16">
+                        <path d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857V3.857z"/>
+                        <path d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+                      </svg> Dashboard</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#tab-3" class="nav-link py-2" data-bs-toggle="tab"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-toggle-on mb-1" viewBox="0 0 16 16">
+                        <path d="M5 3a5 5 0 0 0 0 10h6a5 5 0 0 0 0-10H5zm6 9a4 4 0 1 1 0-8 4 4 0 0 1 0 8z"/>
+                      </svg> Orders</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#tab-4" class="nav-link py-2" data-bs-toggle="tab"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-archive mb-1" viewBox="0 0 16 16">
+                        <path d="M0 2a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1v7.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 12.5V5a1 1 0 0 1-1-1V2zm2 3v7.5A1.5 1.5 0 0 0 3.5 14h9a1.5 1.5 0 0 0 1.5-1.5V5H2zm13-3H1v2h14V2zM5 7.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"/>
+                      </svg> Products</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#tab-5" class="nav-link py-2" data-bs-toggle="tab"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-key-fill mb-1" viewBox="0 0 16 16">
+                        <path d="M3.5 11.5a3.5 3.5 0 1 1 3.163-5H14L15.5 8 14 9.5l-1-1-1 1-1-1-1 1-1-1-1 1H6.663a3.5 3.5 0 0 1-3.163 2zM2.5 9a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+                      </svg> Log in</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#tab-6" class="nav-link py-2" data-bs-toggle="tab"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-lock mb-1" viewBox="0 0 16 16">
+                        <path d="M11 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0ZM8 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm0 5.996V14H3s-1 0-1-1 1-4 6-4c.564 0 1.077.038 1.544.107a4.524 4.524 0 0 0-.803.918A10.46 10.46 0 0 0 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h5ZM9 13a1 1 0 0 1 1-1v-1a2 2 0 1 1 4 0v1a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1v-2Zm3-3a1 1 0 0 0-1 1v1h2v-1a1 1 0 0 0-1-1Z"/>
+                      </svg> Sign Up</a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-9">
+            <div class="tab-content">
+                <div class="tab-pane active" id="tab-1">
+                    <div class="center">
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                                <input type="checkbox" id="first" class="form-check-input">
+                                <label class="stretched-link  form-check-label me-auto ms-2" for="first">
+                                    <div class="fw-bold">Finish sales report</div>
+                                    <small class="text-muted"><i class="fa-solid fa-calendar-days"></i> 1:00 - 2:00pm</small>
+                                </label>
+                            </li>
+                            <li class="list-group-item">
+                                <input type="checkbox" id="sec" class="form-check-input">
+                                <label class="stretched-link  form-check-label me-auto ms-2" for="sec">
+                                    <div class="fw-bold">Weekly All Hands</div>
+                                    <small class="text-muted"><i class="fa-solid fa-calendar-days"></i> 2:00 - 2:30pm</small>
+                                </label>
+                            </li>
+                            <li class="list-group-item">
+                                <input type="checkbox" id="third" class="form-check-input">
+                                <label class="stretched-link  form-check-label me-auto ms-2" for="third">
+                                    <div class="fw-bold">Out of office</div>
+                                    <small class="text-muted"><i class="fa-solid fa-clock"></i> Tomorrow</small>
+                                </label>
+                            </li>
+                            <li class="list-group-item">
+                                <input type="checkbox" id="fourth" class="form-check-input" disabled>
+                                <label class="stretched-link  form-check-label me-auto ms-2" for="fourth">
+                                    <div class="fw-bold">Add new task...</div>
+                                    <small class="text-muted"><i class="fa-solid fa-list"></i> Choose list</small>
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="tab-pane" id="tab-2">
+                    <div class="center">
+                            <table class="table table-bordered table-light table-responsive-md table-hover">
+                                <thead>
+                                    <tr>
+                                        <th rowspan="2"></th>
+                                        <th rowspan="2" class="align-middle">ID</th>
+                                        <th colspan="3">Product</th>
+                                        <th rowspan="2" class="align-middle">In stock</th>
+                                        <th colspan="2">Customer</th>
+                                    </tr>
+                                    <tr>
+                                        <th>Name</th>
+                                        <th>Price</th>
+                                        <th>Coupon</th>
+                                        <th>Name</th>
+                                        <th>Order</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <div class="form-check">
+                                                <input type="checkbox" class="form-check-input">
+                                            </div>
+                                        </td>
+                                        <td>4</td>
+                                        <td>Item Name 4</td>
+                                        <td><input type="email" class="form-control bg-light text-dark" style="border: 0;"></td>
+                                        <td>no</td>
+                                        <td>yes</td>
+                                        <td>Customer4</td>
+                                        <td>4</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="form-check">
+                                                <input type="checkbox" class="form-check-input">
+                                            </div>
+                                        </td>
+                                        <td>3</td>
+                                        <td>Item Name 3</td>
+                                        <td><input type="email" class="form-control bg-light text-dark" style="border: 0;"></td>
+                                        <td>no</td>
+                                        <td>yes</td>
+                                        <td>Customer3</td>
+                                        <td>3</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="form-check">
+                                                <input type="checkbox" class="form-check-input">
+                                            </div>
+                                        </td>
+                                        <td>2</td>
+                                        <td>Item Name 2</td>
+                                        <td><input type="email" class="form-control bg-light text-dark" style="border: 0;"></td>
+                                        <td>no</td>
+                                        <td>yes</td>
+                                        <td>Customer2</td>
+                                        <td>2</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="form-check">
+                                                <input type="checkbox" class="form-check-input">
+                                            </div>
+                                        </td>
+                                        <td>1</td>
+                                        <td>Item Name 1</td>
+                                        <td><input type="email" class="form-control bg-light text-dark" style="border: 0;"></td>
+                                        <td>no</td>
+                                        <td>yes</td>
+                                        <td>Customer1</td>
+                                        <td>1</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="form-check">
+                                                <input type="checkbox" class="form-check-input">
+                                            </div>
+                                        </td>
+                                        <td>0</td>
+                                        <td>Item Name 0</td>
+                                        <td><input type="email" class="form-control bg-light text-dark" style="border: 0;"></td>
+                                        <td>no</td>
+                                        <td>yes</td>
+                                        <td>Customer0</td>
+                                        <td>0</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                </div>
+                <div class="tab-pane" id="tab-3">
+                    <div class="center">
+                        <div class="accordion w-75" id="parentaccordion">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header">
+                                <button type="button" data-bs-toggle="collapse" class="accordion-button bg-info" data-bs-target="#myaccordion1">Accordion #1</button>
+                              </h2>
+                              <div class="collapse accordion-collapse" id="myaccordion1" data-bs-parent="#parentaccordion">
+                                <div class="accordion-body">
+                                  <p>What if a writer or novelist decided to write a 300-page book with no breaks in the text for new ideas, new chapters, or even character dialogue? It would be so overwhelming that the reader would probably take one look and close the book forever. When writing is divided up into manageable parts that are cohesive, it's much easier for the reader to take in and process. A paragraph is a distinct segment of writing, often includes more than one sentence, and is separated from other paragraphs and text by a space.</p>
+                              </div>
+                            </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header">
+                                <button type="button" data-bs-toggle="collapse" class="accordion-button bg-info" data-bs-target="#myaccordion2">Accordion #2</button>
+                              </h2>
+                              <div class="collapse accordion-collapse" id="myaccordion2" data-bs-parent="#parentaccordion">
+                                <div class="accordion-body">
+                                  <p>What if a writer or novelist decided to write a 300-page book with no breaks in the text for new ideas, new chapters, or even character dialogue? It would be so overwhelming that the reader would probably take one look and close the book forever. When writing is divided up into manageable parts that are cohesive, it's much easier for the reader to take in and process. A paragraph is a distinct segment of writing, often includes more than one sentence, and is separated from other paragraphs and text by a space.</p>
+                                </div>
+                              </div>
+                              
+                            </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header">
+                                <button type="button" data-bs-toggle="collapse" class="accordion-button bg-info" data-bs-target="#myaccordion3">Accordion #3</button>
+                              </h2>
+                              <div class="collapse accordion-collapse" id="myaccordion3" data-bs-parent="#parentaccordion">
+                                <div class="accordion-body">
+                                  <p>What if a writer or novelist decided to write a 300-page book with no breaks in the text for new ideas, new chapters, or even character dialogue? It would be so overwhelming that the reader would probably take one look and close the book forever. When writing is divided up into manageable parts that are cohesive, it's much easier for the reader to take in and process. A paragraph is a distinct segment of writing, often includes more than one sentence, and is separated from other paragraphs and text by a space.</p>
+                              </div>
+                            </div>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+                <div class="tab-pane" id="tab-4">
+                    <div class="center">
+                        <div class="container">
+                            <div class="row g-3">
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="card" style="height: 600px;">
+                                        <div class="card-header text-center text-bg-dark">
+                                            Woodcraft and Handicraft
+                                        </div>
+                                        <div class="card-body">
+                                          <img src="../Images/wood.jpg_512" class="card-img-top" height="300px">
+                                            <p class="card-text">If you prefer to give the woodcraft and handicraft presents, you should head to the shops that sell beautiful sculptures. For the cooking lover, don’t miss the markets that sell vegetables, fruits, and fish products like pounded fish and dried fish. The most famous markets are Kai Tan Market, Man Thiri Market, Mingalar Market, Nan-She Market, Thiri Mandalar Market, Yadanarbon Market, and Zegyo Market.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="card" style="height: 600px;">
+                                        <div class="card-header text-center text-bg-dark">
+                                            Gemstone stones and Jewelry
+                                        </div>
+                                        <div class="card-body">
+                                          <img src="../Images/jewelry.jpg_512" class="card-img-top" height="300px">
+                                            <p class="card-text">Precious stones and jewelry items are available for purchase among the most outstanding and interesting products. But you should be aware of buying precious or jewels if the shop owners cannot give the certificates of verification and always remember to bargain if you desire to get a good price.
+                        
+                                                If you want a great opportunity to experience the lively gemstone scene, come to Jade Market in Mandalay. You will observe the selling, buying activities and carving stones inside hundreds of the small shops.
+                                                
+                                                </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 mx-auto">
+                                    <div class="card" style="height: 600px;">
+                                        <div class="card-header text-center text-bg-dark">
+                                            Longyi
+                                        </div>
+                                        <div class="card-body">
+                                          <img src="../Images/longyi.jpg" class="card-img-top" height="300px">
+                                            <p class="card-text">Longyi is worn by both Burmese men and women as a traditional costume in Myanmar. It has the gorgeous colorful patterns. Usually Myanmar men prefer the dark-colored longyi while women prefer the bright colored one and wear the most beautiful one for their special occasions. It will be perfect if the traditional handmade bags and scarves are added.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane" id="tab-5">
+                    <div class="center">
+                        <div class="container w-50">
+                            <div class="mt-3">
+                                <h1>Login Form</h1>
+                            </div>
+                            <form class="shadow p-4 rounded-3 mt-3 bg-light">
+                                <div class="my-3 form-floating">
+                                    <input class="form-control" id="email"  placeholder="Username">
+                                    <label for="email">Email/Username</label>
+                                </div>
+                                <div class="my-3 form-floating">
+                                    <input class="form-control" id="Pass" placeholder="Password">
+                                    <label for="Pass">Password</label>
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label"><input type="checkbox" class="form-check-input"> Remember Me</label>
+                                    <a href="#" class="float-end text-decoration-none">Reset Password</a>
+                                </div>
+                                <div>
+                                    <button type="button" class="btn btn-primary">Login</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane" id="tab-6">
+                    <div class="center">
+                        <div class="container w-75">
+                            <form class="shadow rounded-3 mt-3 p-4 bg-light">
+                                <div class="mb-3">
+                                    <h1>Sign Up</h1>
+                                </div>
+                                <div class="mb-3">
+                                <input class="form-control" list="datalist" placeholder="Enter Title">
+                                <datalist id="datalist">
+                                    <option value="Mr.">Mr.</option>
+                                    <option value="Ms.">Ms.</option>
+                                    <option value="Mrs.">Mrs.</option>
+                                </datalist>
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col-md-6">
+                                        <input class="form-control" placeholder="First Name">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input class="form-control" placeholder="Sur Name">
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <input class="form-control" placeholder="Mobile Number or Email Address">
+                                </div>
+                                <div class="mb-3">
+                                    <input class="form-control" placeholder="Enter Password">
+                                </div>
+                                <div class="mb-3">
+                                    <div class="row">
+                                            <label class="form-label">Date of Birth<span class="requied-field" style="color: red;">*</span></label>
+                                        <div class="col-md-4">
+                                            <select class="form-select">
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                              </select>     
+                                        </div>
+                                        <div class="col-md-4">
+                                            <select class="form-select">
+                                                <option value="1">January</option>
+                                                <option value="2">February</option>
+                                                <option value="3">March</option>
+                                                <option value="4">April</option>
+                                                <option value="5">May</option>
+                                                <option value="6">June</option>
+                                                <option value="7">July</option>
+                                                <option value="8">August</option>
+                                                <option value="9">September</option>
+                                                <option value="10">October</option>
+                                                <option value="11">November</option>
+                                                <option value="12">December</option>
+                                              </select>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <select class="form-select">
+                                                <option value="1">1990</option>
+                                                <option value="2">1991</option>
+                                                <option value="3">1992</option>
+                                                <option value="4">1993</option>
+                                                <option value="5">1994</option>
+                                                <option value="6">1995</option>
+                                                <option value="7">1996</option>
+                                                <option value="8">1997</option>
+                                                <option value="9">1998</option>
+                                                <option value="10">1999</option>
+                                                <option value="11">2000</option>
+                                                <option value="12">2001</option>
+                                                <option value="13">2002</option>
+                                                <option value="14">2003</option>
+                                                <option value="15">2004</option>
+                                                <option value="16">2005</option>
+                                                <option value="17">2006</option>
+                                                <option value="18">2007</option>
+                                                <option value="19">2008</option>
+                                                <option value="20">2009</option>
+                                                <option value="21">2010</option>
+                                                <option value="22">2011</option>
+                                                <option value="23">2012</option>
+                                                <option value="24">2013</option>
+                                                <option value="25">2014</option>
+                                                <option value="26">2015</option>
+                                                <option value="27">2016</option>
+                                                <option value="28">2017</option>
+                                                <option value="29">2018</option>
+                                                <option value="30">2019</option>
+                                                <option value="31">2020</option>
+                                                <option value="32">2021</option>
+                                                <option value="33">2022</option>
+                                              </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <div class="row">
+                                        <label class="form-label">Gender</label>
+                                        <div class="col-md-4">
+                                            <label class="form-ckeck-level">Male</label>
+                                            <input type="radio" class="form-check-input" name="gender">
+                                        </div>
+                                        <div class="col-md-4">
+                                            <label class="form-ckeck-level">Female</label>
+                                            <input type="radio" class="form-check-input" name="gender">
+                                        </div>
+                                        <div class="col-md-4">
+                                            <label class="form-ckeck-level">Other</label>
+                                            <input type="radio" class="form-check-input" name="gender">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <button type="button" class="btn btn-primary">Sign Up</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
